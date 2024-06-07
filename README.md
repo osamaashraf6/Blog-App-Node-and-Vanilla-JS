@@ -151,7 +151,7 @@ To run the project, execute the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://gitlab.com/osamaashraf8/full-stack-blog-app/-/issues).
+Feel free to check the [issues page](https://github.com/osamaashraf6/Blog-App-Node-and-Vanilla-JS/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
