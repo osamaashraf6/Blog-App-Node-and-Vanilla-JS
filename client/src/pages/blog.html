@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Page</title>
+    <!--  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--  -->
+    <link rel="stylesheet" href="/client/src/css/globals.css" />
+  </head>
+  <body>
+<!-- Start nav -->
+<header class="bg-[#ac3246] h-[72px] flex items-center">
+  <div class="container-wrapper">
+    <div class="parnav flex justify-between items-center max-sm:flex-col">
+      <div
+        class="brand max-sm:w-full max-sm:flex max-sm:justify-between max-sm:items-center"
+      >
+        <a href="/client/index.html" class="text-2xl text-white font-bold"
+          >Blog App</a
+        >
+        <div class="hamburger-control">
+          <label
+            class="bars text-2xl cursor-pointer hidden max-sm:flex"
+            for="bars"
+            ><i class="fas fa-bars"></i
+          ></label>
+          <label class="close text-2xl cursor-pointer hidden" for="times"
+            ><i class="fas fa-times"></i
+          ></label>
+        </div>
+      </div>
+      <nav class="navigation max-sm:w-full max-sm:hidden">
+        <ul class="flex gap-1 max-sm:w-full">
+          <li>
+            <a
+              href="/client/index.html"
+              class="text-white text-sm pb-[25.5px] pt-[27.5px] px-4 hover:bg-white hover:text-red-500 delay transition ease-in-out"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="/client/src/pages/about.html"
+              class="text-white text-sm pb-[25.5px] pt-[27.5px] px-4 hover:bg-white hover:text-red-500 delay transition ease-in-out"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="/client/src/pages/contact.html"
+              class="text-white text-sm pb-[25.5px] pt-[27.5px] px-4 hover:bg-white hover:text-red-500 delay transition ease-in-out"
+              >Contact</a
+            >
+          </li>
+          <li>
+            <a
+              href="/client/src/pages/blog.html"
+              class="text-white text-sm pb-[25.5px] pt-[27.5px] px-4 hover:bg-white hover:text-red-500 delay transition ease-in-out"
+              >Blog</a
+            >
+          </li>
+          <li>
+            <a
+              href="/client/src/pages/dashboard.html"
+              class="text-white text-sm pb-[25.5px] pt-[27.5px] px-4 hover:bg-white hover:text-red-500 delay transition ease-in-out"
+              >Dashboard</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+    <!-- Start Section -->
+    <section class="py-16">
+      <div class="container-wrapper">
+        <div class="flex flex-col gap-6 max-sm:gap-10" id="news-data"></div>
+      </div>
+    </section>
+    <div class="parmodal fixed top-0 left-0 w-full h-full bg-white hidden">
+      <div class="parmodal_modal "></div>
+    </div>
+    <!-- Start Footer -->
+    <footer class="pb-1">
+      <div class="container-wrapper">
+        <div
+          class="flex justify-between py-4 text-red-700 font-medium border-y border-red-500 max-sm:text-xs"
+        >
+          <p>&copy; All rights reserved</p>
+          <p>Powered by Node js And JS</p>
+        </div>
+      </div>
+    </footer>
+    <!--  -->
+    <script
+      src="https://kit.fontawesome.com/7280065e63.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--  -->
+    <script src="/client/src/js/blog.js"></script>
+    <!--  -->
+    <script src="/client/src/js/index.js"></script>
+  </body>
+</html>

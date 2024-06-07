@@ -1,0 +1,73 @@
+/* Start index styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+
+.container-wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Start swiper */
+swiper-container {
+  height: 100%;
+}
+
+/* Start mobile menu */
+@media screen and (max-width: 768px) {
+  .navigation.curtain {
+    display: flex;
+    padding-top: 20px;
+  }
+  .navigation.curtain > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .navigation.curtain > ul > li > a {
+    padding: 10px 10px 10px 5px;
+    border-radius: 3px;
+    width: 100%;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* Toogle */
+  .bars {
+    display: none !important;
+  }
+  .close {
+    display: none !important;
+  }
+
+  /* Header */
+  header {
+    height: 72px !important;
+  }
+}
+/* Navigation */
+/* parnav
+brand, naviagtion
+ul */
+
+.bio::-webkit-scrollbar {
+  width: 4px;
+
+}
+.bio::-webkit-scrollbar-track {
+  background: #eae9f7;
+  border-radius: 5px;
+  
+}
+.bio::-webkit-scrollbar-thumb {
+  background: #947ffe;
+  
+
+}
