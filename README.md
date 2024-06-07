@@ -124,7 +124,7 @@ To run the project, execute the following command:
 
 - GitHub: [Osama Ashraf](https://github.com/osamaashraf6)
 - Twitter: [Osama Ashraf](https://twitter.com/OsamaAshraf578?t=l75KjrhQgK4h-vSPfgk1gA&s=08)
-- LinkedIn: [Osama Ashraf](https://www.linkedin.com/in/osama-salem-2a046b203)
+- LinkedIn: [Osama Ashraf](https://www.linkedin.com/in/osamaashraf6/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
